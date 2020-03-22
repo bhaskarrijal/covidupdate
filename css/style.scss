@@ -1,71 +1,13 @@
+
+*{
+    overflow-x: hidden; //horizontal
+    overflow-y: scroll; //vertical
+}
+
 body{
     background-color: blue;
-}
-.infobox{
-    margin-top: 5%;
-    p{
-    text-align: center;
-    font-family: Amaranth;
     color: white;
-    }
 }
-
-.engbox{
-    background-color: white;
-    border-radius: 5px;
-    width: 390px;
-    height: 400px;
-    float: left;
-    margin: 50px;
-    margin-left: 15%;
-    padding: 10px;
-    .typeTitle{
-        font-family: Amaranth;
-        color: red;
-    }
-    .titles{
-        font-family: amaranth;
-    }
-    .source_credits{
-        text-align: center;
-        text-transform: uppercase;
-        font-style: italic;
-        font-size: 10px;
-    }
-    button{
-        margin-top: 5px;
-        a{
-            text-decoration: none;
-        }
-    }
-}
-
-.nepbox{
-    background-color: white;
-    border-radius: 5px;
-    width: 390px;
-    height: 400px;
-    float: right;
-    margin: 50px;
-    margin-right: 15%;
-    padding: 10px;
-    .typeTitle{
-        font-family: Amaranth;
-        color: red;
-    }
-    .titles{
-        font-family: amaranth;
-    }
-    .source_credits{
-        text-align: center;
-        text-transform: uppercase;
-        font-style: italic;
-        font-size: 10px;
-    }
-    button{
-        margin-top: 5px;
-        a{
-            text-decoration: none;
-        }
-    }
+.titletext{
+    font-family: 'Arya', sans-serif;
 }
