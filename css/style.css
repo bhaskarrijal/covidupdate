@@ -83,5 +83,34 @@ body {
 .safety-images img {
   height: 500px;
   width: 400px;
+  border-radius: 10px;
+}
+
+.safety-images p {
+  font-size: small;
+  font-style: italic;
+}
+
+.safety-images p a {
+  color: yellow;
+}
+
+.symptoms-images {
+  margin-top: 10px;
+}
+
+.symptoms-images img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.symptoms-images p {
+  font-size: small;
+  font-style: italic;
+}
+
+.symptoms-images p a {
+  color: yellow;
 }
 /*# sourceMappingURL=style.css.map */

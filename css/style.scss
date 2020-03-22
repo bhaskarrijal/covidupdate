@@ -69,5 +69,29 @@ body{
     img{
         height: 500px;
         width: 400px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: small;
+        font-style: italic;
+        a{
+            color: yellow;
+        }
+    }
+}
+
+.symptoms-images{
+    margin-top: 10px;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    p{
+        font-size: small;
+        font-style: italic;
+        a{
+            color: yellow;
+        }
     }
 }
