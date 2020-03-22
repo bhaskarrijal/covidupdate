@@ -31,6 +31,7 @@ body {
 .neptable .typeTitle {
   color: red;
   font-family: 'Arya', sans-serif;
+  text-align: center;
 }
 
 .neptable .titles {
@@ -48,6 +49,7 @@ body {
 .engtable .typeTitle {
   color: red;
   font-family: 'Gotu', sans-serif;
+  text-align: center;
 }
 
 .engtable .titles {
