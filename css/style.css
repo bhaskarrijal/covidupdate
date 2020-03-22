@@ -12,4 +12,16 @@ body {
   text-align: center;
   font-family: 'Arya', sans-serif;
 }
+
+.neptable {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+}
+
+.neptable .typeTitle {
+  color: red;
+  font-family: 'Arya', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
