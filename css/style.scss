@@ -5,7 +5,7 @@ body{
     margin-top: 5%;
     p{
     text-align: center;
-    font-family: Amarnath;
+    font-family: Amaranth;
     color: white;
     }
 }
@@ -13,20 +13,59 @@ body{
 .engbox{
     background-color: white;
     border-radius: 5px;
-    width: 400px;
+    width: 390px;
     height: 400px;
     float: left;
     margin: 50px;
     margin-left: 15%;
-
+    padding: 10px;
+    .typeTitle{
+        font-family: Amaranth;
+        color: red;
+    }
+    .titles{
+        font-family: amaranth;
+    }
+    .source_credits{
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 10px;
+    }
+    button{
+        margin-top: 5px;
+        a{
+            text-decoration: none;
+        }
+    }
 }
 
 .nepbox{
     background-color: white;
     border-radius: 5px;
-    width: 400px;
+    width: 390px;
     height: 400px;
     float: right;
     margin: 50px;
     margin-right: 15%;
+    padding: 10px;
+    .typeTitle{
+        font-family: Amaranth;
+        color: red;
+    }
+    .titles{
+        font-family: amaranth;
+    }
+    .source_credits{
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 10px;
+    }
+    button{
+        margin-top: 5px;
+        a{
+            text-decoration: none;
+        }
+    }
 }
