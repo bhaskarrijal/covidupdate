@@ -8,6 +8,17 @@ body {
   font-family: 'Arya', sans-serif;
 }
 
+.disclaimer {
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+
+.disclaimer a {
+  text-decoration: none;
+  color: yellow;
+}
+
 .neptable {
   background-color: white;
   border-radius: 10px;
