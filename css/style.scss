@@ -17,6 +17,29 @@ body{
     }
 }
 
+.mainMenu{
+    overflow: hidden;
+    font-family: 'Gotu', sans-serif;
+    background-color: rgb(0, 0, 223);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    ul{
+        padding: 0px;
+        display: flex;
+        justify-content: center;    
+    }
+    li{
+        float: left;
+        list-style-type: none;
+        margin: 10px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
 .neptable{
     background-color: white;
     border-radius: 10px;

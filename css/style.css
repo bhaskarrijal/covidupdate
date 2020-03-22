@@ -19,6 +19,36 @@ body {
   color: yellow;
 }
 
+.mainMenu {
+  overflow: hidden;
+  font-family: 'Gotu', sans-serif;
+  background-color: #0000df;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mainMenu ul {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainMenu li {
+  float: left;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.mainMenu li a {
+  text-decoration: none;
+  color: white;
+}
+
 .neptable {
   background-color: white;
   border-radius: 10px;
